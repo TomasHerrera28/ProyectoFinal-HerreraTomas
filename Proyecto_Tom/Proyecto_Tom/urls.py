@@ -21,5 +21,4 @@ from AppTomas import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('AppTomas.urls')),
-    path('users/', include('users.urls')),
 ]
