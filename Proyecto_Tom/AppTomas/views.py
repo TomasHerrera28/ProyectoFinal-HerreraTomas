@@ -26,4 +26,4 @@ def contact_form(request):
     else:
         mi_formulario = Client()
 
-    return render(request, "AppTomas/contact_form.html", {"mi_formulario": mi_formulario})
+    return render(request, "AppTomas/contact_form.html", {"mi_formulario": mi_formulario})   
