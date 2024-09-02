@@ -1,0 +1,17 @@
+{% extends 'vbc/base.html' %}
+
+{% load static %}
+
+{% block title %} Products {% endblock %}
+
+{%block main %}
+
+    <form action = "" method ="POST">
+        {% csrf_token %}
+        Segura que desea borrar este producto? {{product.name}}
+
+        <input type="submit" value="Delete">
+
+    </form>
+
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends 'vbc/base.html' %}
+
+{% load static %}
+
+{% block title %} Products {% endblock %}
+
+{%block main %}
+
+    {% for product in Products %}
+        <p> Name: {{product.name}}, {{product.price}}</p>
+        <a href="{% url 'ProductDelete' product.pk  %}">Delete</a>
+        <a href="{% url 'ProductUpdate' product.pk  %}">Update</a>
+    {% endfor %}
+
+{% endblock %}

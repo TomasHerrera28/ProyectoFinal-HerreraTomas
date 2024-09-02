@@ -1,0 +1,28 @@
+{% extends "AppTomas/base.html" %}
+
+{% load static %}
+
+{% block title %} Login {% endblock %}
+
+{% block main %}
+
+
+<div class="d-flex justify-content-center">
+
+    <div class="d-flex flex-column">
+
+        <form action="" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <table>
+                {{ form.as_table }}
+            </table>
+            <a class = "btn btn-primary" href="{% url 'ChangePassword' %}">Editar contraseña</a>
+            <input type="submit" value="Actualizar">
+
+        </form>
+
+    </div>
+</div>
+
+
+{% endblock %}
