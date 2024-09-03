@@ -1,7 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 from django.contrib.auth.forms import AuthenticationForm
-from django.contrib.auth import login, authenticate
+from django.contrib.auth import login, authenticate, logout
 from django.contrib.auth.decorators import login_required
 from users.forms import UserRegisterForm, UserEditForm
 from django.contrib.auth.mixins import LoginRequiredMixin
@@ -44,6 +44,11 @@ def register(request):
 
     form = UserRegisterForm()     
     return render(request,"users/register.html" ,  {"form":form, "msg_register": msg_register})
+
+def logout_request(request):
+    logout(request)
+    
+    return redirect('Login')
 
 @login_required
 def edit_user(request):
