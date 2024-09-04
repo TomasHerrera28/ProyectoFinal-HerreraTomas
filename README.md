@@ -10,10 +10,10 @@ Datos del Superusuario:
     email: tomy@h.com
     pass:tomi57820
 
-Datos del user Cesar:
+Datos del user Staff Cesar:
     user: Cesar
     pass:cesar57820
 
-Datos del user Diego:
+Datos del user comun Diego:
     user: Diego
     pass: diego57820
