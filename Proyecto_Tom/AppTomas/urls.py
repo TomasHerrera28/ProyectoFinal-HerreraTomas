@@ -3,5 +3,5 @@ from AppTomas import views
 
 urlpatterns = [
     path('', views.index, name="Home"),
-    path('contact/', views.contact, name="Contact"),
+    path('about/', views.contact, name="About"),
 ]
