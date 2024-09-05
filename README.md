@@ -16,3 +16,6 @@ Datos del user Staff Cesar:
 Datos del user comun Diego:
     user: Diego
     pass: diego57820
+
+EXCEL DE CASOS DE PRUEBA:
+https://docs.google.com/spreadsheets/d/1bTlH9jaPQzEIwPZoTWyUVK9nW7bgumD_5V8RyXy7Qe8/edit?usp=sharing
