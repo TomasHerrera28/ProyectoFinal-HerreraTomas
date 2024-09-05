@@ -1,6 +1,5 @@
 from django.contrib import admin
-from AppTomas.models import Product, Client
+from AppTomas.models import Product
 
 # Register your models here.
 admin.site.register(Product)
-admin.site.register(Client)
