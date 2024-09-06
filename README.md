@@ -19,3 +19,6 @@ Datos del user comun Diego:
 
 EXCEL DE CASOS DE PRUEBA:
 https://docs.google.com/spreadsheets/d/1bTlH9jaPQzEIwPZoTWyUVK9nW7bgumD_5V8RyXy7Qe8/edit?usp=sharing
+
+VIDEO EXPLICATIVO:
+https://youtu.be/o9LOgPgvUdY
