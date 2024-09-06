@@ -8,7 +8,9 @@
 
 <div class="row justify-content-center padding my-5">
     <h2 class="fw-bolder mb-4 text-center">Producto: {{ product.name }}</h2>
-    <img src="{{ product.imagen.url }}" class="card-img-top" style="width: 30rem;" alt="...">
+    <h5 class = "text-center">{{ product.description }}</h5>
+    <img src="{{ product.imagen.url }}" class="card-img-top justify-content-center" style="width: 30rem;" alt="...">
+    {{ product.date}}
     <button type="button" class="btn btn-dark"><a href="{% url 'ProductList' %}">Regresar</a></button>    
 </div>
 {% endblock %}
